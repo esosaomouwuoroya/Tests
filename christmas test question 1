@@ -1,0 +1,23 @@
+#Student Name = esosa
+#this calculator can only add and subtract
+name = input("please enter your name")
+print("hello",name)
+#num1 = 9
+#num2 = 5
+num1 = int(input("please enter your first number"))
+num2 = int(input("please enter your second number"))
+print('Do you want me to (a)dd or (s)ubtract?')
+#print("Do you want me to (A)dd or (S)ubtract?")
+choice = input()
+
+if choice == 'a':
+    print (num1 + num2)
+elif choice == 'A':
+    print (num1 + num2)    
+elif choice == 's':
+    print (num1 - num2)
+elif choice == 'S':
+    print (num1 - num2)
+else :
+    print("invalid option")
+    
