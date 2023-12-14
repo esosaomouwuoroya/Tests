@@ -1,0 +1,9 @@
+squared_number = [1,4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400]
+print("which squared number will i display")
+#while,squared_number = (1-20):
+   # print("enter a number")
+#int(input("which number will i display"(1-20:)
+
+#choice = input()
+         # if choice == "1-20" :
+         # print(
