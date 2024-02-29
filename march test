@@ -1,0 +1,24 @@
+#esosa
+
+
+print("Household budget calculator")
+num_adults = 2
+num_child = 2
+house_holdbudget_calculator=print("enter the following information")
+num_adults = int(input("enter the number of adults in your house")#question i
+num_child = int(input("enter the number of children in your house")#question i
+if num_adults ==1 or num_child==4:#question ii
+else:
+    print("child alowance total is 580")#question ii
+inflation_rate = int(input("enter an inflation rate")
+childres_allowance_total = int(input("enter the childrens aqllowance total")#question ii
+                               
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+
+child_allowance = 140
+
+print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost: €", cost_food_adult*num_adults+cost_food_child*num_child)
+
