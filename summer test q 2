@@ -1,0 +1,8 @@
+#question 2
+#student name:
+random.randint(1,50)
+number=int(input("enter a number between 1,50"))
+if number >50:
+    print("too high")
+elif number >1<=50:
+    ("you have won")
