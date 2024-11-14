@@ -1,0 +1,6 @@
+#question 2
+#esosa
+print("split bill calculator")
+total = int(input("enter the total price"))
+people = int(input("how many people are splitting the bill"))
+print("you each owe",total/people)
