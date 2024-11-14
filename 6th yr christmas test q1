@@ -1,0 +1,28 @@
+#question 1
+#esosa
+from random import choice
+
+fruits = ["apple","cherry","orange"]
+fruit  = ["apples","cherries","oranges"]
+random_fruit_1 = choice(fruits)#question i 
+random_fruit_2 = choice(fruits)#question ii 
+random_fruit_3 = choice(fruits)#question ii
+random_fruit_4 =  choice(fruit)
+
+print("random fruit one is:",random_fruit_1 )#vii
+print("random fruit two is:",random_fruit_2 )
+print("random fruit three is:",random_fruit_3 )
+print("first fruit is",random_fruit_1)#question iii
+
+if random_fruit_2== random_fruit_1:#iv
+     print("first pair match")
+else:
+    print("first pair are not a match")#iv
+print("first pair are",random_fruit_4 )
+#if   random_fruit_1 == random_fruit_2:
+   # print("matching pair")
+#else :
+   # ("not a matching pair")
+    
+#print("first pair are",random_fruit_1 == random_fruit_2, )
+#print("matching pair")
